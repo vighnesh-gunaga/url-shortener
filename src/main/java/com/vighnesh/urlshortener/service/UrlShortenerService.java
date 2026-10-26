@@ -52,7 +52,6 @@ public class UrlShortenerService {
         throw new ResponseStatusException(HttpStatus.NOT_FOUND,"Short URL not found");
     }
 
-
     private String generateShortCode()
     {
         String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
